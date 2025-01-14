@@ -37,7 +37,7 @@ Follow these steps to use the deployment script:
 4.  **Run the script:**
 
     ```bash
-    sudo ./deploy.sh
+    sudo ./script.sh
     ```
 
 ## Manual Deployment
@@ -140,12 +140,12 @@ If you want to do everything manually use the following steps:
 2.  **Make the script executable:**
 
     ```bash
-    chmod +x deploy.sh
+    chmod +x blockip.sh
     ```
 3. **Run the script:**
 
     ```bash
-    sudo ./deploy.sh
+    sudo ./blockip.sh
     ```
 **This script will create a default server block in Nginx that captures all traffic accessing the server through the IP address or any domain other than the one you defined. It will deny access by returning a 403 Forbidden response.**
 
