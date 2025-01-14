@@ -1,8 +1,8 @@
 #!/bin/bash
 
-REPO_URL="https://github.com/Pro2grammer/myapp.git"  # Replace with your GitHub repo URL
+REPO_URL="https://github.com/Human-100/nginx-server.git"  # Replace with your GitHub repo URL
 APP_DIR="/var/www/myapp"
-DOMAIN="nouman.com"
+DOMAIN="example.com" # Replace with your domain
 FRONTEND_BUILD_DIR="$APP_DIR/frontend/build"
 BACKEND_DIR="$APP_DIR/backend"
 NGINX_CONF="/etc/nginx/sites-available/$DOMAIN"
