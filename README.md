@@ -128,11 +128,12 @@ If you want to do everything manually use the following steps:
 
 ## Additionally i have provided another script "blockip.sh" for security
 
- This script will add security features to the server by:
-    1. Blocking all traffic that tries to access the server through its ip address.
-    2. Enable access to the server only through the domain you created.
+**This script will enhance the server’s security by:**
 
-**For this**
+1. Blocking all traffic that attempts to access the server via its ip address.
+2. Enabling access only through the specified domain you created.
+
+## Steps
 1. **Download the script from this repo**
     ```bash
     blockip.sh
