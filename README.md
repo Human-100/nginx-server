@@ -121,10 +121,12 @@ If you want to do everything manually use the following steps:
     sudo bash -c "echo '127.0.0.1 <domain_name>' >> /etc/hosts"
     ```
 8. **Open your browser and type the domain which will open the website over Ngnix**
+    ```
+    eg example.com # Whatever domain you created earlier
+    ```
 
-**Happy Hosting ;)**
 
-## Additionally i have provided another script "blockip.sh"
+## Additionally i have provided another script "blockip.sh" for security
 
  This script will add security features to the server by:
     1. Blocking all traffic that tries to access the server through its ip address.
@@ -146,3 +148,5 @@ If you want to do everything manually use the following steps:
     sudo ./deploy.sh
     ```
 **This script will create a default server block in Nginx that captures all traffic accessing the server through the IP address or any domain other than the one you defined. It will deny access by returning a 403 Forbidden response.**
+
+**Happy Hosting ;)**
