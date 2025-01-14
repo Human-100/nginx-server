@@ -147,6 +147,6 @@ If you want to do everything manually use the following steps:
     ```bash
     sudo ./blockip.sh
     ```
-**This script will create a default server block in Nginx that captures all traffic accessing the server through the IP address or any domain other than the one you defined. It will deny access by returning a 403 Forbidden response.**
+    This script will create a default server block in Nginx that captures all traffic accessing the server through the IP address or any domain other than the one you defined. It will deny access by returning a 403 Forbidden response
 
 **Happy Hosting ;)**
