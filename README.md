@@ -20,7 +20,7 @@ Follow these steps to use the deployment script:
 2.  **Make the script executable:**
 
     ```bash
-    chmod +x deploy.sh
+    chmod +x script.sh
     ```
 
 3.  **Configure the script (Important):**
